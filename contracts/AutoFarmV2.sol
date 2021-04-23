@@ -1439,11 +1439,11 @@ contract AutoFarmV2 is Ownable, ReentrancyGuard {
 
     address public burnAddress = 0x000000000000000000000000000000000000dEaD;
 
-    uint256 public ownerAUTOReward = 138; // 12%
+    uint256 public ownerAUTOReward = 111; // ~ 10 owner reward %
 
-    uint256 public AUTOMaxSupply = 80000e18;
-    uint256 public AUTOPerBlock = 8000000000000000; // AUTO tokens created per block
-    uint256 public startBlock = 3888888; //https://bscscan.com/block/countdown/3888888
+    uint256 public AUTOMaxSupply = 100000e18;
+    uint256 public AUTOPerBlock = 8500000000000000; // tokens created per block
+    uint256 public startBlock = 0; //https://bscscan.com/block/countdown/3888888
 
     PoolInfo[] public poolInfo; // Info of each pool.
     mapping(uint256 => mapping(address => UserInfo)) public userInfo; // Info of each user that stakes LP tokens.
