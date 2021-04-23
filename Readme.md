@@ -2,4 +2,4 @@ VRSX = https://rinkeby.etherscan.io/address/0xbde3482e3cb07462e5c08628dea2e5b4cb
 
 TST = https://rinkeby.etherscan.io/address/0x19a1417784d8ab59d3669e7ed338e0b432e45714#code
 
-AutoFarm = https://rinkeby.etherscan.io/address/0x5a66cad54a8a802927925a6a2fa80367ab5b72f2#code
+Farm = https://rinkeby.etherscan.io/address/0xfc7bdb813c6345b5f32fb667febcbb3cf2adc558#code
